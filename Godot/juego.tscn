@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://nbw3uf00qtp0"]
+
+[ext_resource type="Script" uid="uid://beqnbcieagovf" path="res://chili_visual.gd" id="1_gvuhb"]
+[ext_resource type="Script" uid="uid://cm16b0ook6rdq" path="res://juego.gd" id="1_ipdbw"]
+[ext_resource type="Texture2D" uid="uid://bj668dt5kioey" path="res://icon.svg" id="2_n74ki"]
+[ext_resource type="Script" uid="uid://o5gj73uv2pyr" path="res://pata_visual.gd" id="3_n74ki"]
+
+[node name="Juego" type="Node2D" unique_id=633109876]
+script = ExtResource("1_ipdbw")
+
+[node name="Chili" type="Node2D" parent="." unique_id=309294016]
+position = Vector2(576, 324)
+script = ExtResource("1_gvuhb")
+
+[node name="Puerta" type="Sprite2D" parent="." unique_id=977927909]
+position = Vector2(1050, 324)
+texture = ExtResource("2_n74ki")
+
+[node name="Punto" type="Sprite2D" parent="." unique_id=18116371]
+modulate = Color(1, 1, 0, 1)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_n74ki")
+
+[node name="Pata" type="Node2D" parent="." unique_id=697933297]
+script = ExtResource("3_n74ki")

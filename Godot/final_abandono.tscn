@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://cw4qvp7ujeewp"]
+
+[ext_resource type="Script" uid="uid://4scdbrnco4v7" path="res://final_abandono.gd" id="1_jp6g4"]
+
+[node name="Control" type="Control" unique_id=481151860]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jp6g4")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=40706028]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="." unique_id=535912006]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+horizontal_alignment = 1
+vertical_alignment = 1
