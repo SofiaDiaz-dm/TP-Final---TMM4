@@ -1,8 +1,0 @@
-# Python
-venv/
-__pycache__/
-*.pyc
-
-# Godot
-.godot/
-/android/
