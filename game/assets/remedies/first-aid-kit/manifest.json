@@ -1,0 +1,47 @@
+{
+ "slug": "first-aid-kit",
+ "triangles": 14888,
+ "texture_px": 2048,
+ "triangles_light": null,
+ "texture_px_light": null,
+ "files": {
+  "glb": {
+   "name": "first-aid-kit.glb",
+   "bytes": 1279892
+  },
+  "blend": {
+   "name": "first-aid-kit.blend",
+   "bytes": 978052
+  },
+  "fbx": {
+   "name": "first-aid-kit.fbx",
+   "bytes": 2204028
+  },
+  "obj": {
+   "name": "first-aid-kit-obj.zip",
+   "bytes": 1027535
+  },
+  "usdz": {
+   "name": "first-aid-kit.usdz",
+   "bytes": 1994757
+  }
+ },
+ "extras": {
+  "license": "CC0-1.0",
+  "source": "grab3d.com",
+  "dimensions_m": "0.427 x 0.314 x 0.286",
+  "triangles": 14888,
+  "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+  "generator": "Created by grab3d",
+  "created": "2026-10-25",
+  "real_size": "first aid kit case, 40 cm x 28 cm, 14 cm high when closed, lid open 35 degrees",
+  "notes": "front faces -Y; mint plastic case lying flat, white inside, lid hinged at the back and opened 35 degrees; no cross anywhere: kit emblem (heart with pulse line) large on the lid and small on the front; two grey hinges, two white latches, grey carrying handle on the right side. Contents: white gauze roll with light blue edge stripes, pink elastic bandage, plaster box without print, three loose plasters (pink, yellow, light blue with white pads), closed bandage scissors with chrome blades and mint handles, disinfectant bottle and ointment tin; in the lid a grey elastic strap with two plaster strips. Movable: lid (first-aid-kit_lid), origin on the hinge axis, rotates about X (0 to 35 degrees open; closed at -35 degrees from the delivered pose).",
+  "set": "Cozy Hospital & Medical Kit"
+ },
+ "origin": {
+  "method": "procedural",
+  "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+  "ai_content": false,
+  "ai_assisted_code": true
+ }
+}

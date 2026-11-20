@@ -1,0 +1,28 @@
+# Normalización de textos y binarios.
+# Los .bat son de Windows: si se guardan con LF, cmd.exe se come los saltos.
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.sh text eol=lf
+
+# Godot: escenas y scripts en texto plano, diff legible.
+*.gd text
+*.tscn text
+*.tres text
+*.cfg text
+# Godot reescribe los .import con LF en todas las plataformas: si se convierten
+# a CRLF, cada `--import` deja el árbol sucio sin haber cambiado nada.
+*.import -text
+
+# Binarios: nada de convertir saltos de línea ni intentar mergearlos.
+*.glb binary
+*.gltf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ttf binary
+*.otf binary
+*.task binary
+*.pyc binary

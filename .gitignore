@@ -1,0 +1,23 @@
+# Godot
+game/.godot/
+exports/
+*.translation
+
+# Binarios locales (Godot portable, caches)
+tools/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Basura de ejecución
+*.log
+*.tmp
+exports/

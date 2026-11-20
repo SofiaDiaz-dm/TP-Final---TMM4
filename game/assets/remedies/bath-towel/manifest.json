@@ -1,0 +1,47 @@
+{
+ "slug": "bath-towel",
+ "triangles": 11592,
+ "texture_px": 2048,
+ "triangles_light": null,
+ "texture_px_light": null,
+ "files": {
+  "glb": {
+   "name": "bath-towel.glb",
+   "bytes": 1465044
+  },
+  "blend": {
+   "name": "bath-towel.blend",
+   "bytes": 1496037
+  },
+  "fbx": {
+   "name": "bath-towel.fbx",
+   "bytes": 1962860
+  },
+  "obj": {
+   "name": "bath-towel-obj.zip",
+   "bytes": 1342713
+  },
+  "usdz": {
+   "name": "bath-towel.usdz",
+   "bytes": 1816768
+  }
+ },
+ "extras": {
+  "license": "CC0-1.0",
+  "source": "grab3d.com",
+  "dimensions_m": "0.381 x 0.279 x 0.153",
+  "triangles": 11592,
+  "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+  "generator": "Created by grab3d",
+  "created": "2026-10-26",
+  "real_size": "stack of three folded bath towels, approx. 38 x 28 x 15 cm",
+  "notes": "lies on the floor, front faces -Y; three folded terry bath towels (mint, cream, pink) resting on each other, each folded in three visible layers, fine terry loop texture, woven white border stripes; no text",
+  "set": "Cozy Bathroom Kit"
+ },
+ "origin": {
+  "method": "procedural",
+  "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+  "ai_content": false,
+  "ai_assisted_code": true
+ }
+}

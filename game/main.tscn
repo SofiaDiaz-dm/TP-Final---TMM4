@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://v410y564yatr"]
+
+[ext_resource type="Script" uid="uid://dmojrcg2avp50" path="res://src/game/main.gd" id="1_main"]
+[ext_resource type="Script" uid="uid://q658bgt2i11b" path="res://src/world/room.gd" id="2_room"]
+[ext_resource type="Script" uid="uid://dvq41h8cfs3vs" path="res://src/world/chili.gd" id="3_chili"]
+[ext_resource type="Script" uid="uid://byuvputu83gwl" path="res://src/game/gaze_camera.gd" id="4_camera"]
+[ext_resource type="Script" uid="uid://caxiww53llckm" path="res://src/world/kaiser_body.gd" id="5_kaiser"]
+[ext_resource type="Script" uid="uid://co6mk3j8v3rfm" path="res://src/ui/hud.gd" id="6_hud"]
+
+[node name="Main" type="Node3D" unique_id=236210365]
+script = ExtResource("1_main")
+focus_angle = 25.0
+
+[node name="Room" type="Node3D" parent="." unique_id=1446599254]
+script = ExtResource("2_room")
+
+[node name="Chili" type="Node3D" parent="." unique_id=168973915]
+script = ExtResource("3_chili")
+
+[node name="Camera" type="Camera3D" parent="." unique_id=384116910]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 2.5)
+current = true
+script = ExtResource("4_camera")
+
+[node name="Kaiser" type="Node3D" parent="Camera" unique_id=1910703918]
+script = ExtResource("5_kaiser")
+
+[node name="Hud" type="CanvasLayer" parent="." unique_id=732141587]
+script = ExtResource("6_hud")
